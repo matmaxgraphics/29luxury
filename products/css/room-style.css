@@ -1,0 +1,110 @@
+.bg-wrapper{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../livingRoom/img/background.jpg');
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.product-display figure{
+	height: auto;
+	margin: 20px;
+	border: 0px solid #333333;
+	transition: 0.3s;
+	
+}
+.product-display figure h6{
+	color: #1a1a1a;
+}
+.product-display figure figcaption .main{
+	font-weight: bold;
+}
+.product-display figure figcaption .main:hover{
+	color: #996633;
+}
+.product-display figure:hover{
+	margin-top: 5px;
+	transition: 0.3s;
+}
+.product-display figure figcaption{
+	background-color: #efefef;
+	padding: 5px;
+	height: 70px;
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.product-display figure figcaption h6 span{
+	font-weight: bold;
+}
+.feature-box{
+	padding: 30px;
+}
+.feature-box img{
+	width: 500px;
+	height: auto;
+}
+.product-feature{
+	padding-left: 0px;
+}
+.product-feature h5{
+	font-weight: bold;
+}
+.product-feature .name{
+	color: #996633;
+	font-weight: bold;
+}
+button.btn.btn-submit{
+	background-color: #996633;
+	color: #ffffff;
+}
+button.btn.btn-submit:hover{
+	background-color: #CC843D;
+	color: #ffffff;
+}
+/*MEDIA QUERY STYLING FOR RESPONSIVENESS STARTS HERE*/
+@media only screen and (max-width: 1199px){
+	.wrapper .product-feature{
+		padding-left: 50px;
+	}
+	.feature-box{
+		padding: 5px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.feature-box img{
+	width: 600px;
+	height: auto;
+	}
+	.col-md-6{
+		max-width: 100%!important;
+	}
+	.wrapper .product-feature{
+		padding-left: 50px;
+		margin-top: 20px;
+
+	}
+	
+	
+}
+@media only screen and (max-width: 767px){
+	.wrapper .product-feature{
+		padding-left: 10px;
+		margin-top: 20px;
+
+	}
+	.col-md-6{
+		max-width: 100%!important;
+	}
+	.feature-box img{
+	width: 100%;
+	height: auto;
+}
+}
+/*MEDIA QUERY STYLING FOR RESPONSIVENESS ENDS HERE*/
+td{
+	padding: 10px;
+}

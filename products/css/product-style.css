@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+.bg-wrapper{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../doors/img/background.jpg');
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.nav-tabs{
+	background-color: #1a1a1a;
+	width: 100%;
+}
+.nav-tabs .nav-item{
+	width: 20%;
+	text-align: center;
+}
+.nav-tabs .nav-link.active{
+	background-color: #996633!important;
+	color: #ffffff;
+	border: 0px;
+}
+.product-display figure{
+	height: auto;
+	margin: 20px;
+	border: 0px solid #333333;
+	transition: 0.3s;
+}
+
+.product-display figure:hover{
+	margin-top: 5px;
+	transition: 0.3s;
+}
+.product-display figure figcaption{
+	background-color: #333333;
+	padding: 5px;
+	color: #ffffff;
+	height: 70px;
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.product-display figure figcaption .main{
+	font-weight: bold;
+	margin-top: 15px;
+
+}
+.product-display figure figcaption:hover{
+	color: #996633;
+	transition: 0.3s;
+}
+.product-display figure img{
+	width: 200px;
+	height: auto;
+}
+.col-md-6 h5{
+	margin-top: 30px;
+}
+
+.modal-footer .btn{
+	border-radius: 0px;
+}
+.modal-footer .btn-submit{
+	background-color: #996633;
+	color: #ffffff;
+}
+.modal-footer .btn-submit:hover{
+	background-color: #CC843D;
+	color: #ffffff;
+}
