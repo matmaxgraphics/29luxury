@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+	<style type="text/css">
+		
+.product-cat-container{
+	background-color: #1A1A1A;
+	margin-top: -25px;
+}
+.product-cat-container h5{
+	color: #ffffff;
+}
+.product-category{
+	text-align: center;
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  place-items: center;
+}
+
+.product-category figure{
+	width: 200px;
+	height: auto;
+	margin-top: 15px;
+
+}
+@media only screen and (max-width: 639px){
+	.product-category{grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		grid-gap: 15px;
+	}
+	.product-category figure{
+	width: 150px;
+}
+	.product-category figure img{
+	width: 150px!important;
+}
+}
+.product-category figure a{
+	color: #ffffff;
+}
+.product-category figure a:hover{
+	color: #996633;
+	text-decoration: none!important;
+}
+.product-category figure img{
+	width: 200px;
+	height: auto;
+	transition: 0.3s;
+}
+.product-category figure img:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+.product-category figure h5{
+	text-align: center;
+	margin-top: 5px;
+}
+.product-category figure h5:hover{
+	color: #996633;
+	text-decoration: none!important;
+}
+	</style>
+</head>
+<body>
+<div class="product-cat-container" id="product-cat-container">
+        <h5 class="title">VIEW OUR PRODUCTS
+        </h5>
+        <div class="product-category">
+          <figure>
+            <a href="products/doors/product-door.html">
+              <img src="images/img-cate1.jpg">
+              <figcaption>
+                <h5>Doors
+                </h5>
+              </figcaption>
+            </a>
+          </figure>
+          <figure>
+            <a href="products/livingRoom/product-living.html">
+              <img src="images/img-cate2.jpg">
+              <figcaption>
+                <h5>Living Room
+                </h5>
+              </figcaption>
+            </a>
+          </figure>
+          <figure>
+            <a href="products/roomFurnitures/product-room.html">
+              <img src="images/img-cate3.jpg">
+              <figcaption>
+                <h5>Room Furnitues
+                </h5>
+              </figcaption>
+            </a>
+          </figure>
+          <figure>
+            <a href="products/diningSets/product-dining.html">
+              <img src="images/img-cate4.jpg">
+              <figcaption>
+                <h5>Dining Sets
+                </h5>
+              </figcaption>
+            </a>
+          </figure>
+          <figure>
+            <a href="products/accessories/product-accessories.html">
+              <img src="images/img-cate5.jpg">
+              <figcaption>
+                <h5>Accessories
+                </h5>
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+</body>
+</html>
